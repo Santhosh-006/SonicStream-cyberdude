@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MP3 Downloader</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container py-2">
+        <a class="navbar-brand fs-3 fw-bold text-white" href="#"
+          ><i class="fa-solid fa-music text-danger me-2"></i>SonicStream</a
+        >
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon text-bg-danger"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-secondary" aria-current="page" href="#"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-secondary" href="#">Quick Guide</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-secondary" aria-disabled="true">FAQ</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                href=""
+                type="button"
+                class="btn btn-danger ms-lg-1 rounded-pill fw-bold"
+                >Get Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center py-3 py-lg-5">
+      <div class="mb-2 m-lg-5">
+        <span class="badge text-bg-danger rounded-pill px-2 m-2 m-md-0"
+          >New version available</span
+        >
+        <p class="display-3 m-3 m-lg-0 text-white fw-bold mb-1">
+          The Fastest way to
+        </p>
+        <p class="display-3 m-3 m-lg-0 text-danger fw-bold">Download MP3</p>
+        <p class="text-secondary fs-5 my-3 lh-lg">
+          Download 100+ High-Quality Tamil Songs Instantly with a Single Click -
+          Experience completely Free Music Access Anytime.
+        </p>
+        <button
+          type="button"
+          class="btn btn-danger rounded-pill my-2 fw-bold p-2 px-4"
+        >
+          Get Now
+        </button>
+        <div class="my-2 text-white-50">
+          <small class="me-3"
+            ><i
+              class="fa-solid fa-circle-check text-success rounded-circle me-1"
+            ></i>
+            Free Forever</small
+          >
+          <small
+            ><i
+              class="fa-solid fa-circle-check text-success rounded-circle me-1"
+            ></i>
+            High quality</small
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row g-5 gy-1 gy-lg-3 gx-lg-5 mt-1 mx-4 m-lg-0">
+        <div class="col-md-4">
+          <div class="card p-4" id="glass-card">
+            <i
+              class="fa-solid fa-folder-open card-img-top px-3 fs-1 text-danger"
+            ></i>
+            <div class="card-body">
+              <h5 class="card-title text-white fs-2 fw-bold">Library</h5>
+              <p class="card-text text-white-50">
+                Discover a wide range of music from every genre, all in one
+                place, ready to explore anytime you want.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4" id="glass-card">
+            <i class="fa-solid fa-lock card-img-top px-3 fs-1 text-danger"></i>
+            <div class="card-body">
+              <h5 class="card-title text-white fs-2 fw-bold">
+                Secure & Private
+              </h5>
+              <p class="card-text text-white-50">
+                We don't track your downloads or store your history ensuring a
+                completely private experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4" id="glass-card">
+            <i
+              class="fa-solid fa-headset card-img-top px-3 fs-1 text-danger"
+            ></i>
+            <div class="card-body">
+              <h5 class="card-title text-white fs-2 fw-bold">Premium</h5>
+              <p class="card-text text-white-50">
+                Experience high-quality music with crystal-clear sound, giving
+                you a more immersive listening experience every time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container d-flex flex-column justify-content-center align-items-center py-5 my-3 p-5"
+    >
+      <h1 class="display-6 fw-bold text-white mb-4">How To Use</h1>
+
+      <ul class="list-group list-group-flush steps-list">
+        <li
+          class="list-group-item bg-transparent border-0 text-white-50 d-flex align-items-center"
+        >
+          <div class="step-number rounded-circle me-3">1</div>
+          <span>Download the Windows executable file and run it.</span>
+        </li>
+
+        <li
+          class="list-group-item bg-transparent border-0 text-white-50 d-flex align-items-center"
+        >
+          <div class="step-number rounded-circle me-3">2</div>
+          <span>When you run it, the main menu will appear.</span>
+        </li>
+
+        <li
+          class="list-group-item bg-transparent border-0 text-white-50 d-flex align-items-center"
+        >
+          <div class="step-number rounded-circle me-3">3</div>
+          <span
+            >Choose your options accordingly. Once downloaded, the files will
+            appear in the
+            <code class="text-danger">/output/</code> folder.</span
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="container my-3 py-3">
+      <h1 class="display-6 fw-bold text-white mb-4 text-center">
+        User Reviews
+      </h1>
+      <div class="row g-5 gy-lg-3 gx-lg-5 m-4 m-lg-0">
+        <div class="col-md-4">
+          <div class="card h-100" id="glass-card">
+            <div class="card-body">
+              <div
+                class="p-2 d-flex justify-content-start align-items-center gap-3"
+              >
+                <i class="fa-solid fa-user text-danger fs-2"></i>
+                <div>
+                  <p class="my-1 text-white fw-bold fs-6">JohnDoe</p>
+                  <i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star text-warning fs-6"></i>
+                </div>
+              </div>
+              <p class="card-text text-white-50 fst-italic">
+                "Honestly, this is the best downloader I’ve used. There are no
+                annoying pop-ups, and the sound quality is very clear."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="glass-card">
+            <div class="card-body">
+              <div
+                class="p-2 d-flex justify-content-start align-items-center gap-3"
+              >
+                <i class="fa-solid fa-user text-danger fs-2"></i>
+                <div>
+                  <p class="my-1 text-white fw-bold fs-6">Jon Snow</p>
+                  <i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star text-warning fs-6"></i>
+                </div>
+              </div>
+              <p class="card-text text-white-50 fst-italic">
+                "Super fast. I use it to grab copyright-free tracks for my video
+                editing. Works perfectly."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100" id="glass-card">
+            <div class="card-body">
+              <div
+                class="p-2 d-flex justify-content-start align-items-center gap-3"
+              >
+                <i class="fa-solid fa-user text-danger fs-2"></i>
+                <div>
+                  <p class="my-1 text-white fw-bold fs-6">Eren</p>
+                  <i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star text-warning fs-6"></i
+                  ><i class="fa-solid fa-star-half text-warning fs-6"></i>
+                </div>
+              </div>
+              <p class="card-text text-white-50 fst-italic">
+                "Simple interface. Does exactly what it says. The dark mode is
+                easy on the eyes too."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5 py-3" style="max-width: 800px">
+      <h1 class="display-6 fw-bold text-white mb-4 text-center">
+        Frequently Asked Questions
+      </h1>
+      <div class="my-lg-5 m-4 m-lg-2">
+        <div class="accordion" id="accordionExample">
+          <div
+            class="accordion-item mb-3 border-0 rounded overflow-hidden"
+            id="glass-card"
+          >
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button bg-transparent text-light fw-bold shadow-none collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Is This service Free?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-white-50 border-0">
+                Yes, SonicStream is 100% free to use for personal use.
+              </div>
+            </div>
+          </div>
+          <div
+            class="accordion-item mb-3 border-0 rounded overflow-hidden"
+            id="glass-card"
+          >
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button bg-transparent text-light fw-bold shadow-none collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse2"
+                aria-expanded="false"
+                aria-controls="collapse2"
+              >
+                Does it work on Mobile?
+              </button>
+            </h2>
+            <div
+              id="collapse2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-white-50 border-0">
+                No, You need a PC to run it.
+              </div>
+            </div>
+          </div>
+          <div
+            class="accordion-item mb-3 border-0 rounded overflow-hidden"
+            id="glass-card"
+          >
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button bg-transparent text-light fw-bold shadow-none collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse3"
+                aria-expanded="false"
+                aria-controls="collapse3"
+              >
+                Can I download English songs?
+              </button>
+            </h2>
+            <div
+              id="collapse3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-white-50 border-0">
+                Sorry , currently only tamil songs are available.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-black bg-opacity-25 p-4">
+      <div class="container">
+        <div class="row g-4 justify-content-between p-2 py-lg-4">
+          <div class="col-md-4">
+            <h2 class="text-white fs-4 fw-bold">SonicStream</h2>
+            <p class="text-white-50">
+              The ultimate tool for music lovers, fast secure and always free.
+            </p>
+            <div>
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-brands fa-github text-white me-3 fs-4"></i></a
+              ><a href="http://" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-brands fa-instagram text-white me-3 fs-4"></i></a
+              ><a href="http://" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-brands fa-x-twitter text-white me-3 fs-4"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h2 class="text-white fs-5 fw-bold">Stay Updated</h2>
+            <form>
+              <div class="mb-3">
+                <label class="form-label text-white-50 text-small"
+                  >Subscribe for updates</label
+                >
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control bg-transparent text-light border-secondary"
+                    placeholder="Email address"
+                  />
+                  <button class="btn btn-outline-danger" type="submit">
+                    Join
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr class="border-secondary" />
+      <div class="text-center text-white">
+        <small>&copy; 2025 SonicStream. All rights reserved.</small>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/e1124ae195.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(136deg, #051c27 0%, #083842 100%);
+  min-height: 100vh;
+}
+
+#glass-card {
+  background-color: rgb(255, 255, 255, 0.05);
+  border: solid 1px rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+/* #glass-card .accordion-button {
+  background-color: transparent !important;
+  color: white;
+}
+
+#glass-card .accordion-body {
+  background-color: transparent !important;
+} */
+
+.steps-list .list-group-item {
+  font-size: 1.1rem;
+  padding: 1rem 0;
+}
+
+.step-number {
+  width: 38px;
+  height: 38px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
